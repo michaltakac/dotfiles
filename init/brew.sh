@@ -124,10 +124,6 @@ brew install gpgme
 # Install password generator
 brew install apg
 
-# Install Node.js. Note: this installs `npm` too, using the recommended
-# installation method.
-brew install node
-
 # Install io.js
 #brew install iojs
 

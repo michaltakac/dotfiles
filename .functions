@@ -278,7 +278,7 @@ then
 			echo -e "Recent camera uses:\n$usedby"
 	}
 
-fi 
+fi
 
 # movie goodies
 # animated gifs from any video
