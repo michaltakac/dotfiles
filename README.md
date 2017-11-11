@@ -145,9 +145,7 @@ Suggestions/improvements
 
 ## Authors
 
-| [![twitter/michaltakac](https://www.gravatar.com/avatar/59cd93d4261a85b1b2a6c210b0b4a4ce?s=70)](http://twitter.com/michaltakac "Follow @michaltakac on Twitter") |
-|---|
-| [Michal Takac](https://michaltakac.com/) |
+[Michal Takac](https://michaltakac.com/)
 
 ## Thanks to…
 
