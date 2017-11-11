@@ -1,4 +1,4 @@
-Copyright Juraj Bednar <https://juraj.bednar.sk/>
+Copyright Michal Takac <https://michaltakac.com/>
 Copyright Mathias Bynens <https://mathiasbynens.be/>
 
 Permission is hereby granted, free of charge, to any person obtaining

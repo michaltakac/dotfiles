@@ -1,6 +1,6 @@
-# Juraj’s dotfiles
+# Michal’s dotfiles
 
-Forked from [Mathias](https://github.com/mathiasbynens/dotfiles). 
+Original creator: [Mathias](https://github.com/mathiasbynens/dotfiles). Forked from [Juraj](https://github.com/jooray/dotfiles).
 
 ## Installation
 
@@ -11,7 +11,7 @@ Forked from [Mathias](https://github.com/mathiasbynens/dotfiles).
 You can clone the repository wherever you want. (I like to keep it in `~/dotfiles`) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/jooray/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/michaltakac/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:
@@ -31,7 +31,7 @@ set -- -f; source bootstrap.sh
 To install these dotfiles without Git:
 
 ```bash
-cd; curl -#L https://github.com/jooray/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE-MIT.txt}
+cd; curl -#L https://github.com/michaltakac/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh,LICENSE-MIT.txt}
 ```
 
 To update later on, just run that command again.
@@ -49,7 +49,7 @@ export PATH="/usr/local/bin:$PATH"
 ### Fast setup
 
 If you don't want to read about Sensible macOS defaults, Janus install,
-and homebrew setup, you can get fast results with 
+and homebrew setup, you can get fast results with
 
 ```bash
 ./init/init.sh
@@ -91,21 +91,21 @@ My `~/.extra` looks something like this:
 ```bash
 # Git credentials
 # Not in the repository, to prevent people from accidentally committing under my name
-GIT_AUTHOR_NAME="Juraj Bednar"
+GIT_AUTHOR_NAME="Michal Takac"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="jooray@mailinator.com"
+GIT_AUTHOR_EMAIL="takacmichal92@gmail.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
-You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/jooray/dotfiles/fork) instead, though.
+You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/michaltakac/dotfiles/fork) instead, though.
 
 You can also use `~/.gitconfig.local` and `~/.vimrc.local`
 
 ## Examples
 
-If you would like to see some examples of .aliases or .functions usage, have a look at [EXAMPLES.md](https://github.com/jooray/dotfiles/blob/master/EXAMPLES.md).
+If you would like to see some examples of .aliases or .functions usage, have a look at [EXAMPLES.md](https://github.com/michaltakac/dotfiles/blob/master/EXAMPLES.md).
 
 ### Install Homebrew formulae
 
@@ -121,7 +121,7 @@ Some of the functionality of these dotfiles depends on formulae installed by `br
 ## Feedback
 
 Suggestions/improvements
-[welcome](https://github.com/jooray/dotfiles/issues)!
+[welcome](https://github.com/michaltakac/dotfiles/issues)!
 
 ## Improvements and changes from Matthias's dotfiles
 
@@ -145,9 +145,9 @@ Suggestions/improvements
 
 ## Authors
 
-| [![twitter/jurbed](https://www.gravatar.com/avatar/59cd93d4261a85b1b2a6c210b0b4a4ce?s=70)](http://twitter.com/jurbed "Follow @jurbed on Twitter") |
+| [![twitter/michaltakac](https://www.gravatar.com/avatar/59cd93d4261a85b1b2a6c210b0b4a4ce?s=70)](http://twitter.com/michaltakac "Follow @michaltakac on Twitter") |
 |---|
-| [Juraj Bednar](https://juraj.bednar.sk/) |
+| [Michal Takac](https://michaltakac.com/) |
 
 ## Thanks to…
 
@@ -164,8 +164,9 @@ Suggestions/improvements
 * [Nicolas Gallagher](http://nicolasgallagher.com/) and his [dotfiles repository](https://github.com/necolas/dotfiles)
 * [Sindre Sorhus](https://sindresorhus.com/)
 * [Tom Ryder](https://sanctum.geek.nz/) and his [dotfiles repository](https://sanctum.geek.nz/cgit/dotfiles.git/about)
+* [Juraj Bednar](https://juraj.bednar.sk/) and his [dotfiles repository](https://github.com/jooraj/dotfiles)
 * [Kevin Suttle](http://kevinsuttle.com/) and his [dotfiles repository](https://github.com/kevinSuttle/dotfiles) and [macOS-Defaults project](https://github.com/kevinSuttle/macOS-Defaults), which aims to provide better documentation for [`~/.macos`](https://mths.be/macos)
 * [Haralan Dobrev](https://hkdobrev.com/)
 * [Dominee](https://github.com/dominee/Termux-dotfiles) for EXAMPLES.md
   and a few aliases plus better Linux support
-* anyone who [contributed a patch](https://github.com/jooray/dotfiles/contributors) or [made a helpful suggestion](https://github.com/jooray/dotfiles/issues) - either here or to the original dotfiles
+* anyone who [contributed a patch](https://github.com/michaltakac/dotfiles/contributors) or [made a helpful suggestion](https://github.com/michaltakac/dotfiles/issues) - either here or to the original dotfiles
