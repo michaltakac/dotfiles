@@ -9,5 +9,6 @@ if [ $(uname) == "Darwin" ];then
 		~/init/brew.sh
 		~/init/brew-cask.sh
 		~/init/npm.sh
+		~/init/ruby.sh
     ~/init/macos-notifications
 	fi
