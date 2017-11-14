@@ -18,5 +18,7 @@ Thumbs.db
 .vim/swaps/*
 .vim/undo
 
-# git credential file 
+# git credential file
 .gitconfig.local
+
+*.log
