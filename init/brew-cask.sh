@@ -12,7 +12,6 @@ brew install caskroom/cask/brew-cask
 
 
 brew cask install alfred
-brew cask install flux
 brew cask install iterm2
 brew cask install torbrowser
 brew cask install onionshare
