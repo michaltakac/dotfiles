@@ -46,7 +46,6 @@ if [ $(uname) == "Darwin" ]
 				brew install grep
 				brew install openssh
 				brew install screen
-				brew install homebrew/php/php56 --with-gmp
 
 				# Install font tools.
 				brew tap bramstein/webfonttools
@@ -125,7 +124,7 @@ brew install gpgme
 brew install apg
 
 # Install io.js
-#brew install iojs
+# brew install iojs
 
 # Install generic colourizer and other tools for highlighting
 brew install grc
